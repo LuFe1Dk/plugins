@@ -16,6 +16,18 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     repositories {
+     maven {
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/jcenter'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/gradle-plugin'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/google'
+        }
         google()
         jcenter()
     }
@@ -27,6 +39,18 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
+     maven {
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/jcenter'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/gradle-plugin'
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/google'
+        }
         google()
         jcenter()
     }
